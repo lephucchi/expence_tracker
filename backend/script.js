@@ -1,4 +1,4 @@
-const script =`CREATE TABLE tbluser (
+const script = `CREATE TABLE tbluser (
 	id SERIAL NOT NULL PRIMARY KEY,
 	email VARCHAR(120) UNIQUE NOT NULL,
 	firstName VARCHAR(50) NOT NULL,
@@ -34,4 +34,4 @@ CREATE TABLE tbltransaction(
 	type VARCHAR(10) NOT NULL DEFAULT 'income',
 	createdAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	updatedAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
-);`
+);`;
